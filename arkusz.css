@@ -48,7 +48,9 @@ thead {border-bottom:2px solid grey}
 .BOX {float: left;
 }
 
-
+img {
+    margin-top: 10px;
+}
 
 .boxy {
     background-color: #FFFFFF;
@@ -59,6 +61,9 @@ thead {border-bottom:2px solid grey}
     border: 5px solid green;
 }
 
+.IMG {
+    margin:10 px;
+}
 img.top {
     vertical-align: text-top;    
     ruby-align: center;          
