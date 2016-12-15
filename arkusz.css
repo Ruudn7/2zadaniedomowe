@@ -1,12 +1,19 @@
-
+body {
+    height: 100%;
+    background: linear-gradient(white, green, red);
+    margin:0px;
+    text-align: center;
+    }
+ 
 table {
+    text-align: center;
     width:100%;
 }
 
 table, th,td  {
   border-bottom: 1px solid black;
   border-collapse: collapse;
-  margin: 25px;
+  /*margin: 25px;*/
 }
 
 th {
@@ -16,7 +23,7 @@ th {
 } 
 
 tr {
-
+ text-align: left;
 }
 
 thead {border-bottom:2px solid grey}
@@ -24,8 +31,10 @@ thead {border-bottom:2px solid grey}
 
 
 .Table_ABC{ 
-    width: 90%;
-    text-align: center;
+    width: 1200px;
+    padding-top: 50px;
+    margin: 0 auto;
+ 
     }
 
 
@@ -49,12 +58,7 @@ a {color: green;}
 
 
 
-body {
-    height: 100%;
-    background: linear-gradient(white, green, red);
-    margin:0px;
-    }
- 
+
 
 
 form {    
