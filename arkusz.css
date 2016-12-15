@@ -49,6 +49,7 @@ thead {border-bottom:2px solid grey}
 }
 
 
+
 .boxy {
     background-color: #FFFFFF;
     margin: 100px;
@@ -63,8 +64,9 @@ img.top {
     ruby-align: center;          
 }
 
-#li01 {
+.li01 {
     color: blue;
+    font-size: 30px;
 }
 
 
