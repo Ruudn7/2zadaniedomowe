@@ -18,10 +18,18 @@ table, th,td  {
 
 th {
     text-align: left;
- 
-   
+    
 } 
 
+
+tr:hover {
+    background-color: #805462;
+}
+
+
+thead tr:hover {
+    background-color: #FFFFFF;
+}
 tr {
  text-align: left;
 }
@@ -34,10 +42,21 @@ thead {border-bottom:2px solid grey}
     width: 1200px;
     padding-top: 50px;
     margin: 0 auto;
+    padding-bottom: 50px;
  
     }
+.BOX {float: left;
+}
 
 
+.boxy {
+    background-color: #FFFFFF;
+    margin: 100px;
+    width: 239px;
+    height: 350px;
+    float: left;
+    border: 5px solid green;
+}
 
 img.top {
     vertical-align: text-top;    
