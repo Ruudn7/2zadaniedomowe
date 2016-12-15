@@ -1,15 +1,34 @@
 
+table {
+    width:100%;
+}
 
-
-table, th,td {
-  border:1px solid black;
+table, th,td  {
+  border-bottom: 1px solid black;
   border-collapse: collapse;
-    width:50%;
-    }
+  margin: 25px;
+}
 
 th {
     text-align: left;
+ 
+   
+} 
+
+tr {
+
 }
+
+thead {border-bottom:2px solid grey}
+
+
+
+.Table_ABC{ 
+    width: 90%;
+    text-align: center;
+    }
+
+
 
 img.top {
     vertical-align: text-top;    
